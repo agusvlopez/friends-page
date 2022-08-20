@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#a265aa">
+
+    <title>Friends</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <img src="imagenes/banner_friends.jpg" alt="Banner de Friends">
+        </div>
+
+        <section class="titulo">
+            <h1>Friends</h1>
+        </section>
+    </header>
+
+    <nav>
+        <a href="index.html">Introducción</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="temporadas.html">Temporadas</a>
+        <a href="reunion.html">Friends: The Reunion</a>
+        <a href="curiosidades.html">Curiosidades de la serie</a>
+        <a href="joey.html">Serie 'Joey'</a>
+        <a href="form.html" class="activo">Formulario</a>
+    </nav>
+
+<main>
+    <section id="formulario">
+    <h2>Formulario</h2>
+
+    <div class="formulario">
+        
+        <div class="img_form">
+        <img src="imagenes/form_friends.jpg" alt="Los personajes principales de Friends con el fondo de la ciudad">
+        </div>
+        
+        <p>¡Hola! ya que llegaste hasta acá... ¿te gustaría completar el siguiente formulario? ¡Gracias por visitar!</p>
+        
+        <p><span lang="en">Spoiler</span>: tenes que haber visto las 10 temporadas de <span lang="en">Friends</span> si o si...</p>
+
+        <form action="#" method="post" autocomplete="off">
+
+            <fieldset class="datos-personales">
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Su nombre" class="nombre">
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Su dirección de e-mail:" class="email">
+
+                <div class="nacimiento">
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" id="nacimiento">
+                </div>
+
+            </fieldset>
+
+            
+            <div class="opciones">
+                <fieldset>
+
+                    <legend>¿Cuál es tu personajes favorito?</legend>
+                    
+                    <input type="radio" id="rachel" name="personaje_fav" value="rachel">
+                    <label for="rachel">Rachel Green</label><br>
+
+                    <input type="radio" id="ross" name="personaje_fav" value="ross">
+                    <label for="ross">Ross Geller</label><br>
+
+                    <input type="radio" id="monica" name="personaje_fav" value="monica">
+                    <label for="monica">Monica Geller</label><br>
+
+                    <input type="radio" id="chandler" name="personaje_fav" value="chandler">
+                    <label for="chandler">Chandler Bing</label><br>
+
+                    <input type="radio" id="phoebe" name="personaje_fav" value="phoebe">
+                    <label for="phoebe">Phoebe Buffay</label><br>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Con cual de las siguientes frases te sentis mas identificado/a?</legend>
+                    <input type="checkbox" id="joey_frase" name="frases_fav" value="joey_frase">
+                    <label for="joey_frase">'¡Joey no comparte comida!' -Joey</label><br>
+
+                    <input type="checkbox" id="ross_frase" name="frases_fav" value="ross_frase">
+                    <label for="ross_frase">'¡Estabamos en un tiempo!' -Ross</label><br>
+
+                    <input type="checkbox" id="rachel_frase" name="frases_fav" value="rachel_frase">
+                    <label for="rachel_frase">'Nadie debería permitirme tomar decisiones' -Rachel</label><br>
+
+                    <input type="checkbox" id="phoebe_frase" name="frases_fav" value="phoebe_frase">
+                    <label for="phoebe_frase">'Ojalá pudiera, pero no quiero' -Phoebe</label><br>
+
+                    <input type="checkbox" id="chandler_frase" name="frases_fav" value="chandler_frase">
+                    <label for="chandler_frase">'No soy muy bueno dando consejos, ¿puedo ayudarte con un comentario sarcástico?'' -Chandler</label><br>
+
+                    <input type="checkbox" id="monica_frase" name="frases_fav" value="monica_frase">
+                    <label for="monica_frase">'Las reglas son buenas, las reglas ayudan a controlar la diversión.' -Monica</label><br>
+
+                </fieldset>
+
+            </div>
+
+                <fieldset>
+
+                    <legend>Breve opinión acerca de la serie</legend>
+                    <label for="opinion">¿Por qué se la recomendarías (o no) a alguien?</label><br>
+                    <textarea id="opinion" name="opinion" placeholder="Contanos brevemente" maxlength="300"></textarea>
+    
+                </fieldset>
+
+                    <div class="botones">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Reestablecer">
+                    </div>
+        </form>
+
+        
+    </div>
+    </section>
+</main>
+
+<footer class="datos_personales">
+    <!--datos personales-->
+    <div>
+        <img src="imagenes/footer/agustina_lopez.jpg" alt="Imagen de la alumna Agustina Lopez">
+    </div>
+
+    <ul>
+        <li><span>Nombres:</span> Agustina Victoria</li>
+        <li><span>Apellido:</span> Lopez</li>
+        <li><span>Edad:</span> 23 años</li>
+        <li><span>Email:</span> agusvlopez@gmail.com</li>
+    </ul>
+
+    <div class="fuentes">
+        
+        <ul>
+            <li><span>Fuente/s:</span></li>
+            <li>ABC play</li>
+            <li>Wikipedia</li>
+            <li>FormulaTV</li>
+        </ul>
+    </div>
+
+    </footer>
+
+</body>
+</html>

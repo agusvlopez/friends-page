@@ -1,0 +1,803 @@
+/* body */
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+    background-position-x: -78px;
+    background-size: 500px;
+    background-image: url('../imagenes/fondo.jpg');
+    background-attachment: fixed;
+   
+
+}
+
+header, nav, main, footer {
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.904);
+    background-attachment: fixed;
+   
+    border-radius: 10px;
+    box-shadow: #686868 1px 1px 2px;
+}
+
+
+/* header*/
+
+
+.banner>img {
+    width: 100%;
+    border-radius: 10px;
+
+    margin: 10px auto;
+
+}
+
+/* h1 */
+
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background-color: #93E5AB;
+    max-width: 500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 8px;
+    color: #E8F1F2;
+    text-shadow: #1a1919 1px 1px 1px;
+
+    font-size: 2em;
+   
+}
+
+
+/*nav*/
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+        
+}
+
+nav>a {
+    display: inline-block;
+    background-color: #C0C0C0;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 15px 10px;
+    border-radius: 10px;
+
+    font-weight: bold;
+    color: #5D576B;
+    margin: 8px auto;
+
+    text-align: center;
+
+   
+   
+}
+
+nav>a.activo {
+    background-color: #EBEBEB;
+
+    color: #4E878C;
+    font-weight: bold;
+}
+
+nav>a:hover { 
+    background-color: #EBEBEB;
+
+    color: #4E878C;
+    font-weight: bold;
+    
+}
+
+
+/*footer*/
+/* datos personales*/
+
+footer {
+    letter-spacing: 1px;
+    color:#3d3c3b ;
+    font-size: 400;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+}
+
+.datos_personales {
+    background-image: url('../imagenes/footer/fondo_footer.jpg');
+   
+    background-size: 310px ;
+   
+    background-position-y: 180px;
+    background-position-x: 370px;
+
+    background-origin: content-box;
+
+    background-attachment: local;
+    background-repeat: no-repeat;
+
+}
+
+
+.datos_personales>div:first-child {
+    background-color: #93E5AB;
+    width: 260px;
+    height: 260px;
+    border-radius: 150px;
+    margin: 5px;
+    
+}
+
+.datos_personales img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 5px;
+
+    display: block;
+  
+}
+
+.datos_personales li, .fuentes li {
+    margin: 1px;
+
+    background-color: whitesmoke;
+    padding: 10px;
+    
+   
+    border-radius: 10px;
+    box-shadow: #161616be 1px 1px 1px;
+  
+}
+
+.fuentes li {
+    width: 250px;
+}
+
+.datos_personales span  {
+    color: #2A9D8F;
+    font-weight: bold;
+
+}
+
+footer ul {
+    padding: 0px;
+    list-style: none;
+}
+
+/* "fuentes" */
+
+
+.fuentes span {
+    color: #BA1B1D;
+}
+
+
+ /* main...*/
+p {
+    text-align: justify;
+    line-height: 25px;
+    
+    color: #343436;
+    
+}
+
+p span {
+    color:#418f58 ;
+    font-weight: bold;
+}
+
+abbr {
+    color: #983628;
+    text-decoration: none;
+}
+
+abbr:hover{
+    color: #982880;
+    cursor: pointer;
+
+}
+
+
+/* h2...*/
+
+h2 {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 30px;
+    letter-spacing: 5px;
+    text-shadow: #1f1e1ee0 1.5px 1.5px 1px;
+    color: #B7B7B7;
+    font-size: 27px;
+    text-align: left;
+    
+    
+    background-image: url('../imagenes/friends_paraguas_dibujo_h2.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -28px;
+    background-size: 500px;
+
+    box-shadow:#7a7878 1px 1px 2px;
+    border-radius: 10px;
+}
+
+h2:hover{
+    background-color:#93E5AB;
+    color: whitesmoke;
+}
+
+/* h3...*/
+
+h3 {
+    font-size: 22px;
+    text-align: center;
+    color: #0090C1;
+    text-shadow: #343436 1px 1px 0.5px;
+
+    border-radius: 5px;
+    border: #5C5D67 thin solid 1px;
+    box-shadow: #5c5b5bb6 1px 1px 1px;
+
+    display: block;
+    width: 400px;
+    margin: 25px auto;
+    padding: 8px;
+
+}
+
+/* intro*/
+
+.poster_auto img {
+    display: block;
+    width: 280px;
+    box-shadow: #1a191998 0.5px 0.5px 1px;
+    border-radius: 10px;
+   
+    float: left;
+    margin-right: 12px;
+   
+}
+
+/*personajes */
+
+.personajes img {
+    border-radius: 10px;
+    box-shadow: #464545a6 1px 1px 2px;
+}
+.chandler_img img {
+    width: 280px;
+    
+    float: right;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    
+}
+
+.phoebe_img img {
+    width: 280px;
+
+    float: left;
+    margin-right: 12px;
+}
+
+.monica_img img {
+    width: 230px;
+
+    float: right;
+    margin-left: 12px;
+}
+
+.ross_img img {
+    width: 280px;
+
+    float: left;
+    margin-right: 12px;
+
+}
+
+.rachel_img img {
+    width: 230px;
+
+    float: right;
+    margin-left: 12px;
+   
+}
+
+.joey_img img {
+    width: 230px;
+
+    float: left;
+    margin-right: 12px;
+
+}
+
+.chandler_img img, .phoebe_img img, .monica_img img, .ross_img img, .rachel_img img, .joey_img img {
+    background-image: url('../imagenes/fondo.jpg');
+}
+
+
+.chandler_bing, .phoebe_buffay, .monica_geller, .ross_geller, .rachel_green, .joey_tribbiani {
+    padding: 10px 10px;
+    margin-bottom: 15px;
+
+}
+
+/*h3 de personajes...*/
+
+.personajes h3 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+    
+    text-shadow: #1a1919 1px 1px 1px;
+    font-weight: bold;
+}
+
+.personajes .chandler_bing h3, .ross_geller>h3 {
+    color: #B3001B;
+}
+
+.personajes .phoebe_buffay h3, .rachel_green>h3 {
+    color: #d3b747;
+}
+
+.personajes .monica_geller h3, .joey_tribbiani>h3 {
+   color: #43a19df3;
+}
+
+/* strong de personajes...*/
+
+.personajes .chandler_bing strong, .ross_geller strong {
+    color: #B3001B;
+}
+
+.personajes .phoebe_buffay strong, .rachel_green strong {
+    color: #d3b747;
+}
+
+.personajes .monica_geller strong, .joey_tribbiani strong {
+   color: #2A9D8F;
+}
+
+/*Temporadas*/
+
+/* lista capitulos*/
+
+.capitulos>div {
+
+    display: flex;
+
+    background-image: url(../imagenes/sillon_capitulos.jpg);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 10px ;
+
+}
+
+.capitulos img {
+    display: block;
+    width: 270px;
+    margin-left: 20px;
+    margin-right: 15px;
+    box-shadow: #3a3939 2px 1px 2px;
+}
+
+.capitulos li {
+    padding: 8px;
+    margin: 0px 10px 10px 20px;
+    list-style: none;
+
+    background-color: #ECE2D0;
+    color:#78766E;
+    font-weight: 600;
+    font-size: 1.1em;
+
+    border-radius: 10px;
+
+    letter-spacing: 2px;
+}
+
+.temporadas strong{
+    color:#dfbf43;
+    text-shadow: #35343460 1px 1px 0.5px;
+}
+
+.temporadas em {
+    color:#A72608;
+    text-shadow: #50505073 0.5px 0.5px 0.5px;
+}
+
+main ul {
+    padding: 0px;
+}
+
+
+main li span {
+   letter-spacing: 3px;
+   color: #96705B;
+   margin-left: 15px;
+   font-weight: 400;
+
+}
+
+main ul li:nth-child(2n){
+    background-color:#F8F4F9;
+}
+
+/*temporadas right...*/
+
+.right {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+
+    background-color: whitesmoke;
+    box-shadow: #1a1919c5 1px 1px 2px;
+    border: whitesmoke solid 1px;
+    
+    float: right;
+    margin-left: 12px;
+}
+
+.right img {
+    width: 100%; 
+
+}
+
+.right div {
+    padding: 0px 10px 5px;
+    text-align: center;
+    color:  #96705B;
+    text-shadow: #1a191931 1px 1px 1px;
+    font-size: 13px;
+}
+
+/* temporadas left */
+
+.left {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    max-width: 350px;
+
+    background-color: whitesmoke;
+    box-shadow: #1a1919c5 1px 1px 2px;
+    border: whitesmoke solid 1px;
+    
+    float: left;
+    margin-right: 12px;
+}
+
+.left img {
+    width: 100%; 
+
+}
+
+.left div {
+    padding: 1px 10px 5px;
+    text-align: center;
+    color:  #96705B;
+    text-shadow: #1a191931 1px 1px 1px;
+    font-size: 13px;
+}
+
+/* temporada cinco... video*/
+
+.video_phoebe {
+    width: 65%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    
+
+    background-color: whitesmoke;
+    box-shadow: #1a1919c5 1px 1px 2px;
+    border: whitesmoke solid 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.video_phoebe iframe {
+    width: 100%;
+
+}
+
+
+.video_phoebe div {
+    padding: 1px 10px 5px;
+    text-align: center;
+    color:  #96705B;
+    text-shadow: #1a191931 1px 1px 1px;
+    font-size: 13px;
+  
+}
+
+
+.img_temp_diez img {
+    width: 100%;
+}
+
+.img_temp_diez div {
+    padding: 0px 10px 5px;
+    text-align: center;
+    color:  #96705B;
+    text-shadow: #1a191931 1px 1px 1px;
+    font-size: 13px;
+}
+
+/*Friends: the reunion*/
+
+.friends_reunion strong {
+    color: #A72608;
+}
+
+.img_reunion img {
+    width: 900px;
+    margin: auto;
+    display: block;
+    box-shadow: #161616be 1px 1px 0.5px;
+    border-radius: 5px;
+   
+}
+
+.img_reunion {
+    overflow: hidden;
+}
+
+/*curiosidades de la serie...*/
+
+/*the rachel*/
+
+.img_the_rachel {
+    display: block;
+    margin: auto;
+    width: 300px;
+
+    background-color: #43a19df3;
+    color: #e9dec2;
+    text-align: center;
+    font-size: 15px;
+    padding: 1px 1px 2px 1px;
+
+    border-radius: 10px;
+    box-shadow: #807f7fd3 1px 1px 1px;
+
+    float: right;
+    margin: 0px 1px 1px 13px;
+
+}
+
+.impacto_cultural strong {
+    color:#43a19df3;
+}
+.img_the_rachel img {
+    width: 100%;
+   
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+/* bar en bs as*/
+
+.bar p {
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.bar strong {
+    color:#dfbf43;
+    text-shadow: #35343460 1px 1px 0.5px; 
+}
+
+.bar em {
+    color:#9368B7;
+    text-shadow: #35343460 1px 1px 0.5px; 
+}
+
+.entrada_bsas img {
+    width: 550px; 
+    display: block;
+    border-radius: 10px;
+
+    margin: 15px 2px 5px 2px;
+    box-shadow: #35343460 1px 1px 0.5px;
+}
+
+.puerta_bsas img {
+    width: 350px;
+    border-radius: 10px;
+    display: block;
+    
+    margin: 50px 5px 0px 1px;
+    box-shadow: #35343460 1px 1px 0.5px;
+}
+
+.sillon_bsas img {
+    width: 500px;
+    border-radius:10px;
+    display: block;
+
+    margin: 2px 50px 0px 2px;
+    box-shadow: #35343460 1px 1px 0.5px;
+}
+
+.derecha {
+    float: right;
+    margin: 10px;
+}
+
+.izquierda {
+    float:left;
+    margin: 10px;
+}
+
+/* Ellen DeGeneres*/
+
+.ellen strong {
+    color:#BA1B1D;
+    text-shadow: #35343460 1px 1px 0.5px;;
+}
+.img_ellen {
+    display: block;
+    margin: auto;
+    width: 340px;
+
+    background-color: #BA1B1D;
+    color: #e9dec2;
+    text-align: center;
+    font-size: 13px;
+    padding: 1px 1px 2px 1px;
+
+    border-radius: 10px;
+    box-shadow: #807f7fd3 1px 1px 1px;
+    
+}
+
+.img_ellen img {
+    width: 100%;
+   
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* bruce willis*/
+
+.bruce_willis {
+    display: inline-block;
+}
+
+.bruce_willis em {
+    color:#43a19df3;
+    text-shadow: #35343460 1px 1px 0.5px; 
+}
+
+.bruce_willis strong {
+    color:#dfbf43;
+    text-shadow: #35343460 1px 1px 0.5px; 
+}
+
+.img_bruce_willis {
+    display: block;
+    margin: auto;
+    width: 210px;
+
+    background-color: #d3b747;
+    color: #e9dec2;
+    text-align: center;
+    font-size: 15px;
+    padding: 1px 1px 2px 1px;
+
+    border-radius: 10px;
+    box-shadow: #807f7fd3 1px 1px 1px;
+
+    float: left;
+    margin: 0px 20px 1px 0px;
+
+}
+
+.img_bruce_willis img {
+    width: 100%;
+   
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+/* cancion intro...*/
+
+.cancion p em {
+    color: #9368B7;
+}
+
+.cancion_intro_serie {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 550px;
+    margin: auto;
+    
+    background-color: whitesmoke;
+    box-shadow: #1a1919c5 1px 1px 2px;
+    border: whitesmoke thin solid 1px;    
+    
+}
+
+.cancion_intro_serie div {
+    color: #43a19df3;
+    text-align: center;
+    font-size: 15px;
+    padding: 3px 1px 2px 1px;
+
+}
+
+.cancion_intro_serie img {
+    width: 100%;
+}
+
+/*serie joey*/
+
+.poster {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.joey_serie div>img {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+    box-shadow: #525252 1px 1px 2px;
+
+}
+
+.joey_serie .izq { 
+    max-width: 330px;
+    
+}
+.joey_serie .izq img {
+    float: left;
+    margin-right: 15px;
+    width: 100%;
+    
+
+    border-radius: 5px;
+    box-shadow: #202020 1px 1px 3px;
+}
+
+.joey_serie strong {
+    color:#c2a32a;
+    text-shadow: #35343460 1px 1px 0.5px; 
+}
+
+
+.joey_serie .derecha img {
+    float: right;
+    margin-left: 0px;
+
+    max-width:300px;
+    box-shadow: #202020 1px 1px 3px;
+    border-radius: 5px;
+}
+
+.joey_serie div:last-child img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+
+    background-image: url(../imagenes/fondo.jpg);
+}
+

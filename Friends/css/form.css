@@ -1,0 +1,376 @@
+/* body */
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+    background-position-x: -78px;
+    background-size: 500px;
+    background-image: url('../imagenes/fondo.jpg');
+    background-attachment: fixed;
+   
+}
+
+header, nav, main, footer {
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.904);
+    background-attachment: fixed;
+   
+    border-radius: 10px;
+    box-shadow: #686868 1px 1px 2px;
+}
+
+
+
+
+/* header*/
+
+.banner>img {
+    width: 100%;
+    border-radius: 10px;
+
+    margin: 10px auto;
+}
+
+/* h1 */
+
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background-color: #93E5AB;
+    max-width: 500;
+    margin: auto;
+    border-radius: 5px;
+    padding: 8px;
+    color: #E8F1F2;
+    text-shadow: #1a1919 1px 1px 1px;
+
+    font-size: 2em;
+   
+}
+
+/*nav*/
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+nav>a {
+    display: inline-block;
+    background-color: #C0C0C0;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 15px 10px;
+    border-radius: 10px;
+
+    font-weight: bold;
+    color: #5D576B;
+    margin: 8px auto;
+
+    text-align: center;
+   
+}
+
+nav>a.activo {
+    background-color: #EBEBEB;
+
+    color: #4E878C;
+    font-weight: bold;
+}
+
+nav>a:hover { 
+    background-color: #EBEBEB;
+
+    color: #4E878C;
+    font-weight: bold;
+    
+}
+
+/* h2...*/
+
+h2 {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 30px;
+    letter-spacing: 5px;
+    text-shadow: #1f1e1ee0 1.5px 1.5px 1px;
+    color: #B7B7B7;
+    font-size: 27px;
+    text-align: left;
+    
+    
+    background-image: url('../imagenes/friends_paraguas_dibujo_h2.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -28px;
+    background-size: 500px;
+
+    box-shadow:#7a7878 1px 1px 2px;
+    border-radius: 10px;
+}
+
+h2:hover{
+    background-color:#93E5AB;
+    color: whitesmoke;
+}
+
+
+/*footer*/
+/* datos personales*/
+
+footer {
+    letter-spacing: 1px;
+    color:#3d3c3b ;
+    font-size: 400;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+}
+
+.datos_personales {
+    background-image: url('../imagenes/footer/fondo_footer.jpg');
+   
+    background-size: 310px ;
+   
+    background-position-y: 180px;
+    background-position-x: 370px;
+
+    background-origin: content-box;
+
+    background-attachment: local;
+    background-repeat: no-repeat;
+
+}
+
+
+.datos_personales>div:first-child {
+    background-color: #93E5AB;
+    width: 260px;
+    height: 260px;
+    border-radius: 150px;
+    margin: 5px;
+    
+}
+
+.datos_personales img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 5px;
+
+    display: block;
+  
+}
+
+.datos_personales li, .fuentes li {
+    margin: 1px;
+
+    background-color: whitesmoke;
+    padding: 10px;
+    
+   
+    border-radius: 10px;
+    box-shadow: #161616be 1px 1px 1px;
+  
+}
+
+.fuentes li {
+    width: 250px;
+}
+
+.datos_personales span  {
+    color: #2A9D8F;
+    font-weight: bold;
+
+}
+
+footer ul {
+    padding: 0px;
+    list-style: none;
+}
+
+/* "fuentes" */
+
+
+.fuentes span {
+    color: #BA1B1D;
+}
+
+/* FORMULARIO... */
+
+/*imagen...*/
+
+.img_form {
+    display: block;    
+    margin: auto;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 700px;
+    
+}
+
+
+.formulario img {
+    width: 100%;
+
+    border-radius: 3px;
+    box-shadow: #3d3c3b 1px 1px 3px;
+    
+}
+
+/* p formulario...*/
+
+.formulario>p {
+font-weight: 500;
+font-size: 18px;
+margin: 20px;
+
+display: block;
+
+}
+
+.formulario {
+    border: thin solid rgb(150, 149, 149);
+    position: relative;
+    padding: 1em;
+    overflow: auto;
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+
+    margin: 10px 2px;
+}
+
+.formulario fieldset input {
+    padding: 5px;
+    margin: 5px;
+    
+
+    background-color: whitesmoke;
+}
+
+fieldset {
+    margin: 10px;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: #797878 1px 1px 3px;
+    border-radius: 3px;
+    max-height: 300px;
+}
+.datos-personales>input {
+  
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    
+    font-size: 0.8em;
+    
+}
+
+.datos-personales>label {
+    display: none;
+   
+}
+
+.nombre {
+    width: calc(50% - 30px);
+}
+
+.email {
+    width: calc(50% - 30px);
+}
+
+
+.nacimiento {
+    margin: 5px;
+    padding: 5px;
+
+   
+}
+
+[type="date"] {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 500;
+
+    color: rgb(112, 112, 112);
+
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    
+    font-size: 0.8em;
+    width: 76%;
+}
+
+legend {
+    color: whitesmoke;
+    font-weight: 600;
+    background-color: #77b389;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: #1a1919 0.5px 0.5px 0.5px;
+    margin: 10px 0px 10px 15px;
+ 
+}
+
+   /* textarea */
+
+textarea {
+    width: calc(100% - 1em);
+    min-height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 10px 0px;
+    
+    background-color: whitesmoke;
+}
+
+/* botones enviar y reestablecer */
+
+.botones {
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+
+}
+
+[type="submit"], [type="reset"] {
+
+    background-color: #BA1B1D;
+    color: whitesmoke;
+    font-weight: 600px;
+   
+
+    padding: 10px;
+    margin: 8px 8px 3px 0px;
+    border: none;
+    border-radius: 2px;
+
+    cursor: pointer;
+    width: 150px;
+}
+
+[type="submit"]:hover {
+
+    background-color:#93E5AB;
+    color: rgb(80, 79, 79);
+    font-weight: 600px;
+}
+
+[type="reset"]:hover {
+    background-color:#93E5AB;
+    color: rgb(80, 79, 79);
+    font-weight: 600px;
+
+}
